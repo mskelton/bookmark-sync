@@ -1,0 +1,7 @@
+{
+  "extends": "@mskelton/tsconfig",
+  "compilerOptions": {
+    "types": ["chrome-types"],
+    "noEmit": true
+  }
+}
