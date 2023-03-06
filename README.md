@@ -9,6 +9,9 @@ bookmark for the given domain with whatever page you are currently on.
 _Note: If multiple bookmarks are found that match the URL, the extension will
 not update the bookmarks._
 
-## Installation
+## Usage
 
-1. TODO
+1. Install the extension in the
+   [Chrome web store](https://chrome.google.com/webstore/detail/bookmark-sync/eandejdimaomjfhmobeofcgljmmbgkde)
+1. On any tab, press the extension icon to update matching bookmarks for the
+   given domain to the current page URL.
