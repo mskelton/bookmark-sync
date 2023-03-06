@@ -9,7 +9,7 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
-  "permissions": ["activeTab", "bookmarks"],
+  "permissions": ["activeTab", "bookmarks", "tabs"],
   "action": {
     "default_title": "Update bookmark"
   },

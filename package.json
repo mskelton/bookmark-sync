@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
+    "dev": "pnpm build --watch",
     "lint": "eslint .",
     "format": "prettier --write .",
     "ts": "tsc"
