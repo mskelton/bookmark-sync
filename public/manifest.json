@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Bookmark Sync",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Quickly update your saved bookmark URL with the current page URL.",
   "icons": {
     "16": "images/icon-16.png",
