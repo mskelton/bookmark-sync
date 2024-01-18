@@ -10,7 +10,7 @@ function findBookmark(tab: chrome.tabs.Tab) {
 async function updateIcon(tabId: number, tab: chrome.tabs.Tab) {
   const results = await findBookmark(tab)
   const icon =
-    results?.[0]?.url === tab.url ? "icon-48-active.png" : "icon-48.png"
+    results?.[0]?.url === tab.url ? "icon-active@48.png" : "icon@48.png"
 
   await chrome.action.setIcon({ path: `./images/${icon}`, tabId })
 }
@@ -28,7 +28,7 @@ chrome.action.onClicked.addListener(async (tab) => {
   if (results.length === 1) {
     await chrome.bookmarks.update(results[0].id, { url: tab.url })
     await chrome.action.setIcon({
-      path: `./images/icon-48-active.png`,
+      path: `./images/icon-active@48.png`,
       tabId: tab.id,
     })
   }
